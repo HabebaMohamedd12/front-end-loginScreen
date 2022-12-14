@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="index.css" >
+
+</head>
+<body>
+<div class="container">
+  <img src="./images/twitter.png" >
+  
+  <div class="text-center mt-4 name" style="font-family: 'Roboto', sans-serif;">
+    Twitter
+</div>
+<div id="login-error-msg-holder">
+  <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+</div>
+<form class="p-3 mt-3" id="login-form">
+  <div class="form-field d-flex align-items-center">
+      <span class="far fa-user"></span>
+      <label style="font-family: 'Roboto', sans-serif;">Enter your UserName:</label>
+      <input type="text" name="userName" id="userName" placeholder="Your Username..">
+  </div>
+  <div class="form-field d-flex align-items-center">
+      <span class="fas fa-key"></span>
+      <label style="font-family: 'Roboto', sans-serif;">Enter your Password:</label>
+      <input type="password" name="password" id="pwd" placeholder="Your Password..">
+  </div>
+  <input type="submit" value="Login" id="login-form-submit">
+</form>
+<div class="text-center fs-6">
+  <a href="#">Forget password?</a> or <a href="#">Sign up</a>
+</div>
+</body>
+</html>
